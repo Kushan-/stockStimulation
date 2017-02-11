@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'   //TODO: implement routing concept
+import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'   //TODO: implement routing concept
 
 
 import Header from'./components/header.jsx';
 import Main from './components/main.jsx';
 // import Go from '../components/page_content.jsx'
 
+ReactDOM.render(<Header />, document.getElementById('ss_header'));
 
-ReactDOM.render(<Header />, document.getElementById("ss_root"));
 ReactDOM.render(<Main />, document.getElementById("ss_root"));
 
 /*
