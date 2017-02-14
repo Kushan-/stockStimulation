@@ -1,24 +1,68 @@
 {
-  "contests": [
-    {
-      "id": 1,
-      "categoryName": "Business/Company",
-      "contestName": "Cognitive Building Bricks"
-    },
-    {
-      "id": 2,
-      "categoryName": "Magazine/Newsletter",
-      "contestName": "Educating people about sustainable food production"
-    },
-    {
-      "id": 3,
-      "categoryName": "Software Component",
-      "contestName": "Big Data Analytics for Cash Circulation"
-    },
-    {
-      "id": 4,
-      "categoryName": "Website",
-      "contestName": "Free programming books"
-    }
-  ]
+	"share": [
+			{
+				"id": 1,
+				"symbol": "METC",
+				"execPrice":85.17,
+				"lastQty":1105,
+				"bidSize":905,
+				"bidPrice":85.17,
+				"offerPrice":85.18,
+				"offerSize":7593,
+				"previousClose":84.45,
+				"openClose":74.46,
+				"high":95.46,
+				"low":73.46,
+				"tradeVolume":"573"
+
+			},
+			{
+				"id": 2,
+				"symbol": "Axis",
+				"execPrice":85.17,
+				"lastQty":1105,
+				"bidSize":905,
+				"bidPrice":85.17,
+				"offerPrice":85.18,
+				"offerSize":7593,
+				"previousClose":84.45,
+				"openClose":74.46,
+				"high":95.46,
+				"low":73.46,
+				"tradeVolume":"573"
+			},
+			{
+				"id": 3,
+				"symbol": "RBC",
+				"execPrice":85.17,
+				"lastQty":1105,
+				"bidSize":905,
+				"bidPrice":85.17,
+				"offerPrice":85.18,
+				"offerSize":7593,
+				"previousClose":84.45,
+				"openClose":74.46,
+				"high":95.46,
+				"low":73.46,
+				"tradeVolume":"573"
+			},
+			{
+				"id": 4,
+				"symbol": "Dow Jone",
+				"execPrice":85.17,
+				"lastQty":1105,
+				"bidSize":905,
+				"bidPrice":85.17,
+				"offerPrice":85.18,
+				"offerSize":7593,
+				"previousClose":84.45,
+				"openClose":74.46,
+				"high":95.46,
+				"low":73.46,
+				"tradeVolume":"573"
+			}
+		]	
 }
+
+
+

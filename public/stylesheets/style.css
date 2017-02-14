@@ -1,8 +1,30 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #666;
+    font-family: 'Open Sans', Arial, helvetica, sans-serif;
+    font-size: 14px;
 }
 
 a {
   color: #00B7FF;
 }
+
+.owl-carousel {
+    /*display: none;*/
+    position: relative;
+    -ms-touch-action: pan-y;
+    margin: 0 -15px;
+    padding: 0 45px;
+}
+/*
+
+h2.mb20 + div{
+	opacity: 1;
+    display: block;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+*/
