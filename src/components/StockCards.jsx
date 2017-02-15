@@ -2,35 +2,38 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class StockCards extends React.Component{
-
+	handleClick = (e) => {
+		console.log("button clicked send the props to the pop up")
+	}
 
 
 	render(){
-		return(
-			<div className="owl-carousel owl-theme" id="owl-carousel1" data-items="5" style={{opacity: 1}}>
-			    <div className="owl-wrapper-outer">
-			    	<div className="owl-wrapper" style={{width: 3520 + "px", left: 0 + "px"}}>
+	//console.log(this.props)
+	//console.log(this.props.content)
+	//console.log(this.props.content.id)
+		return(                                    	
+		<div className="col-sm-3">
+			<div className="card">
+					<div className="card-block">
+					<h3 className="card-title">{this.props.content.symbol}</h3>
+					<ul className="list-group">
+						<li className="list-group-item">Last bid = 85.58</li>
+								<li className="list-group-item">change = +9.2</li>
+								<li className="list-group-item">% change = 25%</li>
+						</ul>
+						<ul>
+							<li className="list-group-item">
+								<a className="card-text btn btn-sm"><i className="fa fa-bars"></i> Details</a>	
+							</li>
+							<li className="list-group-item">
+								<a href="#" className="btn btn-primary" onClick={this.handleClick}>Buy/Sell</a>
+							</li>
+						</ul>
+						
+					</div>
+			</div>
+		</div>
 
-			    		<div className="owl-item" style={{width: 216+"px"}}>
-				    		<div>
-			                	<div className="product-thumb">
-			                        <header className="product-header">
-			                            <img src="../../public/images/800x600.png" alt="Image Alternative text" title="Gamer Chick"></img>
-			                        </header>
-			                        <div className="product-inner">
-			                            <h5 className="product-title"></h5>
-			                            <p className="product-desciption">Metus orci fusce integer ornare egestas montes tortor</p>
-			                            <ul className="product-actions-list">
-			                                <li><a className="btn btn-sm" href="#"><i className="fa fa-shopping-cart"></i> To Cart</a></li>
-			                                <li><a className="btn btn-sm"><i className="fa fa-bars"></i> Details</a></li>
-			                            </ul>
-			                        </div>
-			                	</div>
-			            	</div>
-			    		</div>	
-			    	</div>	
-				</div>
-			</div>	
 		)
 	}
 	
