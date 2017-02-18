@@ -31,6 +31,7 @@ class Header extends React.Component{
       						<a className="navbar-brand" href="#">Stimulating Your Stock</a>
         				</div>
         			<div id="navbar" className="navbar-collapse collapse">
+        				
           				<form className="navbar-form navbar-right">
             				<div className="form-group">
               					<input type="text" placeholder="Email" className="form-control"></input>

@@ -3,21 +3,13 @@ import ReactDOM from 'react-dom';
 import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'   //TODO: implement routing concept
 
 
-import Header from'./components/header.jsx';
-import Main from './components/main.jsx';
-// import Go from '../components/page_content.jsx'
+import Header from './components/homeRoutes/header.jsx'
+import Home from './components/homeRoutes/body.jsx';
+import SharesOverlay from './components/bodyRoutes/SharesOverlay.jsx';
+import NotFound from './notFound.jsx';
 
 ReactDOM.render(<Header />, document.getElementById('ss_header'));
+ReactDOM.render(<Home />, document.getElementById('ss_root'));
 
-ReactDOM.render(<Main />, document.getElementById("ss_root"));
 
-/*
-ReactDOM.render((
-  	<Router history = {browserHistory}>
-    	<Route path="/" component={Home} />
-    		
-		<Route path = "/go" component = {Go} />
-  		
-  	</Router>
-), document.getElementById('saas_body'));
-*/
+
