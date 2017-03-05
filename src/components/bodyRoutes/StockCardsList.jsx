@@ -18,25 +18,25 @@ class StockCards extends React.Component{
 		console.log(this.props)
 		return(                                    	
 		<div className="col-sm-3">
-			<div className="card">
-					<div className="card-block">
-					<h3 className="card-title">{this.props.content.symbol}</h3>
-					<ul className="list-group">
-						<li className="list-group-item">Last bid = 85.58</li>
-						<li className="list-group-item">change = +9.2</li>
-						<li className="list-group-item">% change = 25%</li>
-					</ul>
-					<ul>
-						<li className="list-group-item">
-							<a className="card-text btn btn-sm"><i className="fa fa-bars"></i> Details</a>	
-						</li>
-						<li className="list-group-item">
-							<a onClick={this.showOverlay.bind(this)}className="card-text btn btn-sm"><i className="fa fa-bars" ></i> Buy/Sell</a>	
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+ -			<div className="card">
+ -					<div className="card-block">
+ -					<h3 className="card-title">{this.props.content.symbol}</h3>
+ -					<ul className="list-group">
+ -						<li className="list-group-item">Last bid = 85.58</li>
+ -						<li className="list-group-item">change = +9.2</li>
+ -						<li className="list-group-item">% change = 25%</li>
+ -					</ul>
+ -					<ul>
+ -						<li className="list-group-item">
+ -							<a className="card-text btn btn-sm"><i className="fa fa-bars"></i> Details</a>	
+ -						</li>
+ -						<li className="list-group-item">
+ -							<a onClick={this.showOverlay.bind(this)}className="card-text btn btn-sm"><i className="fa fa-bars" ></i> Buy/Sell</a>	
+ -						</li>
+ -					</ul>
+ -				</div>
+ -			</div>
+ -		</div>
 
 		)
 	}
